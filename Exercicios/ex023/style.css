@@ -16,6 +16,13 @@ header {
   text-align: center;
 }
 
+section {
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  line-height: 2em;
+  padding-left: 30px;
+}
+
 header > h1 {
   padding-top: 50px;
   font-variant: small-caps;
@@ -36,13 +43,21 @@ header a:hover, footer a:hover {
   text-decoration: underline;
 }
 
+
+
 section.normal {
   background-color: whitesmoke;
   color: black;
 }
 
 section.imagem {
-  
+  background-color: blueviolet;
+  color: black;
+}
+
+section.imagem > p {
+  background-color: rgba(0, 0, 0, 0.168);
+  width: 400px;
 }
 
 footer {
