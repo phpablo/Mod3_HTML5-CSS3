@@ -17,6 +17,7 @@
 html, body {
   min-height: 100vh;
   background-color: darkgray;
+  font-family: var(--fonte1);
 }
 
 header {
@@ -30,9 +31,12 @@ section {
   padding-bottom: 10vh;
   line-height: 2em;
   padding-left: 30px;
+  font-family: var(--fonte3);
+  font-size: 3.5vw;
 }
 
 header > h1 {
+  font-family: var(--fonte2);
   padding-top: 50px;
   font-variant: small-caps;
 }
@@ -52,8 +56,6 @@ header a:hover, footer a:hover {
   text-decoration: underline;
 }
 
-
-
 section.normal {
   background-color: whitesmoke;
   color: black;
@@ -66,7 +68,8 @@ section.imagem {
 
 section.imagem > p {
   background-color: rgba(0, 0, 0, 0.168);
-  width: 400px;
+  display: inline-block;
+  padding: 5px;
 }
 
 footer {
